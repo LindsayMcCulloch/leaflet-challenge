@@ -2,6 +2,14 @@
 
 This is the repository for Monash University Data Analytics Bootcamp Module 15 Challenge
 
+## Contents
+
+`index.html` file is the main HTML file that structures the earthquake visualisation
+
+**static folder**
+* `js` folder contains `app.js` JavaScript file responsible for adding interactivity and functionality to the earthquake visualisation
+* `css` folder contains `styles.css` file that styles the earthquake visualisation
+
 ## Background 
 
 The United States Geological Survey, or USGS for short, is responsible for providing scientific data about natural hazards, the health of our ecosystems and environment, and the impacts of climate and land-use change. Their scientists develop new methods and tools to supply timely, relevant, and useful information about the Earth and its processes.
@@ -10,13 +18,7 @@ The USGS is interested in building a new set of tools that will allow them to vi
 
 ## Instructions
 
-**The instructions for this activity are broken into two parts:**
-
-**Part 1:** Create the Earthquake Visualisation
-
-**Part 2:** Gather and Plot More Data (Optional with no extra points earning)
-
-## Part 1: Create the Earthquake Visualisation
+## Create the Earthquake Visualisation
 
 ![alt text](image.png)
 
@@ -46,30 +48,8 @@ Your first task is to visualise an earthquake dataset. Complete the following st
 
 * Your visualisation should look something like the preceding map.
 
-## Part 2: Gather and Plot More Data (Optional with no extra points earning)
-
-Plot a second dataset on your map to illustrate the relationship between tectonic plates and seismic activity. You will need to pull in this dataset and visualise it alongside your original data. Data on tectonic plates can be found at https://github.com/fraxen/tectonicplates.
-
-This part is completely optional; you can complete this part as a way to challenge yourself and boost your new skills.
-
-The following image is an example screenshot of what you should produce:
-
-![alt text](image-3.png)
-
-**Perform the following tasks:**
-
-* Plot the tectonic plates dataset on the map in addition to the earthquakes.
-
-* Add other base maps to choose from.
-
-* Put each dataset into separate overlays that can be turned on and off independently.
-
-* Add layer controls to your map.
-
 
 ## Requirements
-
-*These requirements apply only to "Part 1: Create the Earthquake Visualisation" as "Part 2" is optional with no extra points earning.*
 
 **Map (60 points)**
     
@@ -95,7 +75,12 @@ The following image is an example screenshot of what you should produce:
 
 BCS Xpert Learning assistant
 
+https://leafletjs.com/examples/quick-start/
+
+https://gis.stackexchange.com/questions/364892/set-center-coordinate-for-leaflet-tilelayer-mask-layer
+
+
 ## Acknowledgments 
 
 * Datasets provided by edX Boot Camps LLC.
-* Dataset created by the United States Geological SurveyLinks to an external site..
+* Dataset created by the United States Geological Survey
