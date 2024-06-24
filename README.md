@@ -24,27 +24,27 @@ Your first task is to visualise an earthquake dataset. Complete the following st
 
 1. Get your dataset. To do so, follow these steps:
 
-    * The USGS provides earthquake data in a number of different formats, updated every 5 minutes. Visit the USGS GeoJSON FeedLinks to an external site. page and choose a dataset to visualise. The following image is an example screenshot of what appears when you visit this link:
+* The USGS provides earthquake data in a number of different formats, updated every 5 minutes. Visit the USGS GeoJSON FeedLinks to an external site. page and choose a dataset to visualise. The following image is an example screenshot of what appears when you visit this link:
 
 ![alt text](image-1.png)
 
-    * When you click a dataset (such as "All Earthquakes from the Past 7 Days"), you will be given a JSON representation of that data. Use the URL of this JSON to pull in the data for the visualisation. The following image is a sampling of earthquake data in JSON format:
+* When you click a dataset (such as "All Earthquakes from the Past 7 Days"), you will be given a JSON representation of that data. Use the URL of this JSON to pull in the data for the visualisation. The following image is a sampling of earthquake data in JSON format:
 
  ![alt text](image-2.png)
 
 2. Import and visualise the data by doing the following:
 
-    * Using Leaflet, create a map that plots all the earthquakes from your dataset based on their longitude and latitude.
+* Using Leaflet, create a map that plots all the earthquakes from your dataset based on their longitude and latitude.
 
-        - Your data markers should reflect the magnitude of the earthquake by their size and the depth of the earthquake by colour. Earthquakes with higher magnitudes should appear larger, and earthquakes with greater depth should appear darker in colour.
+    * Your data markers should reflect the magnitude of the earthquake by their size and the depth of the earthquake by colour. Earthquakes with higher magnitudes should appear larger, and earthquakes with greater depth should appear darker in colour.
 
         **Hint:** The depth of the earth can be found as the third coordinate for each earthquake.
 
-    * Include popups that provide additional information about the earthquake when its associated marker is clicked.
+* Include popups that provide additional information about the earthquake when its associated marker is clicked.
 
-    * Create a legend that will provide context for your map data.
+* Create a legend that will provide context for your map data.
 
-    * Your visualisation should look something like the preceding map.
+* Your visualisation should look something like the preceding map.
 
 ## Part 2: Gather and Plot More Data (Optional with no extra points earning)
 
@@ -58,13 +58,13 @@ The following image is an example screenshot of what you should produce:
 
 **Perform the following tasks:**
 
-    * Plot the tectonic plates dataset on the map in addition to the earthquakes.
+* Plot the tectonic plates dataset on the map in addition to the earthquakes.
 
-    * Add other base maps to choose from.
+* Add other base maps to choose from.
 
-    * Put each dataset into separate overlays that can be turned on and off independently.
+* Put each dataset into separate overlays that can be turned on and off independently.
 
-    *Add layer controls to your map.
+* Add layer controls to your map.
 
 
 ## Requirements
@@ -73,23 +73,23 @@ The following image is an example screenshot of what you should produce:
 
 **Map (60 points)**
     
-    * TileLayer loads without error (20 points)
+* TileLayer loads without error (20 points)
 
-    * Connects to geojson API using D3 without error (20 points)
+* Connects to geojson API using D3 without error (20 points)
 
-    * Markers with size corresponding to earthquake magnitude (10 points)
+* Markers with size corresponding to earthquake magnitude (10 points)
 
-    * A legend showing the depth and their corresponding colour (10 points)
+* A legend showing the depth and their corresponding colour (10 points)
 
 **Data Points (40 points)**
 
-    * Data points scale with magnitude level (10 points)
+* Data points scale with magnitude level (10 points)
 
-    * Data points colours change with depth level (10 points)
+* Data points colours change with depth level (10 points)
 
-    * Each point has a tooltip with the Magnitude, the location and depth (10 points)
+* Each point has a tooltip with the Magnitude, the location and depth (10 points)
 
-    * All data points load in the correct locations (10 points)
+* All data points load in the correct locations (10 points)
 
 ## Resources
 
